@@ -15,6 +15,23 @@ public class Movement : MonoBehaviour
     void Update() //what does this mean? 
     {
         ProcessedInputs();
+        if (Input.GetKey(KeyCode.UpArrow))
+
+        {
+            m_Animator.ResetTrigger("Crouch");
+
+            m_Animator.SetTrigger("Jump");
+
+        }
+
+        {
+            m_Animator.ResetTrigger("Jump");
+            
+            m_Animator.SetTrigger("Crouch");
+
+
+
+        }
 
     }
 
