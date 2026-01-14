@@ -13,11 +13,17 @@ public class ExitGameButton : MonoBehaviour
         uiDocument = GetComponent<UIDocument>();
         audioSource = GetComponent<AudioSource>();
 
-        var button = uiDocument.rootVisualElement.Q<Button>("exit");
+        var button = uiDocument.rootVisualElement.Q<Button>("exit"); //grab exit button
         button.RegisterCallback<PointerEnterEvent>(e =>
         {
             audioSource.Play();
-        });
+        }); // play sound effect on hover
+        button.RegisterCallback<ClickEvent>(e=>{QuitGame();}); // quit game on exit button click
+    }
+
+    private void QuitGame()
+    {
+        Application.Quit(); 
         
     }
 

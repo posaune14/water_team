@@ -12,9 +12,10 @@ public class MenuButtons : MonoBehaviour
     {
         uiDocument = GetComponent<UIDocument>();
         audioSource = GetComponent<AudioSource>();
-        var button = uiDocument.rootVisualElement.Q<Button>("start");
-        button.RegisterCallback<ClickEvent>(e => { SceneManager.LoadScene("LevelOne"); });
-        button.RegisterCallback<PointerEnterEvent>(e=>{audioSource.Play();});
+        
+        var button = uiDocument.rootVisualElement.Q<Button>("start"); // grab start button
+        button.RegisterCallback<ClickEvent>(e => { SceneManager.LoadScene("LevelOne"); }); // load level 1 on click
+        button.RegisterCallback<PointerEnterEvent>(e=>{audioSource.Play();}); // play sound on mouse hover
     }
 
     // Update is called once per frame
