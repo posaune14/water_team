@@ -1,20 +1,24 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
-
-public class MenuButtons : MonoBehaviour
+public class ExitGameButton : MonoBehaviour
 {
-    public UIDocument uiDocument;
     private AudioSource audioSource;
+    private UIDocument uiDocument;
+    
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-
     void OnEnable()
     {
         uiDocument = GetComponent<UIDocument>();
         audioSource = GetComponent<AudioSource>();
-        var button = uiDocument.rootVisualElement.Q<Button>("start");
-        button.RegisterCallback<ClickEvent>(e => { SceneManager.LoadScene("LevelOne"); });
-        button.RegisterCallback<PointerEnterEvent>(e=>{audioSource.Play();});
+
+        var button = uiDocument.rootVisualElement.Q<Button>("exit");
+        button.RegisterCallback<PointerEnterEvent>(e =>
+        {
+            audioSource.Play();
+        });
+        
     }
 
     // Update is called once per frame
