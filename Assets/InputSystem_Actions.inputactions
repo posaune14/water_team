@@ -19,6 +19,28 @@
             "bindings": [
                 {
                     "name": "",
+                    "id": "266bc6a1-deb2-438e-ac8e-a4732cbcb29d",
+                    "path": "<HID::ZEROPLUS P4 Wired Gamepad>/hat",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3833fe08-7c8a-419f-93aa-da331bef7b44",
+                    "path": "<Joystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Controller2",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ca77efb1-f0c2-4d94-89f8-ebf9b44874be",
                     "path": "<SwitchProControllerHID>/leftStick",
                     "interactions": "",
@@ -31,7 +53,7 @@
                 {
                     "name": "",
                     "id": "1cfd8383-b555-403e-b990-5250dddd14dd",
-                    "path": "<SwitchProControllerHID>/rightStick",
+                    "path": "<Gamepad>/rightStick",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Controller2",
