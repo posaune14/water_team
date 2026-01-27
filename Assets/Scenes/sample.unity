@@ -274,6 +274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Movement
   gameobject: {fileID: 1890827525}
+  sprite_renderer: {fileID: 1890827526}
   speed: 1.7
   rb: {fileID: 1890827529}
 --- !u!1 &2039995683

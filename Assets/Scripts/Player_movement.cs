@@ -4,6 +4,7 @@ public class Movement : MonoBehaviour
 {
     Animator m_Animator;
     public GameObject gameobject;
+    public SpriteRenderer sprite_renderer; 
 
     void Start()
     {
@@ -42,6 +43,17 @@ public class Movement : MonoBehaviour
          {
 
             m_Animator.SetTrigger("right_key");
+            sprite_renderer.flipX = false;
+            
+            
+         }
+
+         if (moveX<0)
+         {
+
+            m_Animator.SetTrigger("left_key");
+            sprite_renderer.flipX = true;
+    
             
             
          }
