@@ -163,9 +163,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 385
-        width: 35
+        x: 0
+        y: 390
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -185,9 +185,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 385
-        width: 35
+        x: 38
+        y: 390
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -207,9 +207,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 77
-        y: 385
-        width: 35
+        x: 76
+        y: 390
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -229,9 +229,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_3
       rect:
         serializedVersion: 2
-        x: 112
-        y: 385
-        width: 35
+        x: 114
+        y: 390
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -251,9 +251,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_4
       rect:
         serializedVersion: 2
-        x: 147
-        y: 385
-        width: 35
+        x: 152
+        y: 390
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -273,9 +273,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_5
       rect:
         serializedVersion: 2
-        x: 182
-        y: 385
-        width: 35
+        x: 190
+        y: 390
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -295,9 +295,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_6
       rect:
         serializedVersion: 2
-        x: 217
-        y: 385
-        width: 35
+        x: 228
+        y: 390
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -317,9 +317,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_7
       rect:
         serializedVersion: 2
-        x: 252
-        y: 385
-        width: 35
+        x: 266
+        y: 390
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -339,9 +339,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_8
       rect:
         serializedVersion: 2
-        x: 287
-        y: 385
-        width: 35
+        x: 304
+        y: 390
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -361,9 +361,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_9
       rect:
         serializedVersion: 2
-        x: 322
-        y: 385
-        width: 35
+        x: 342
+        y: 390
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -383,9 +383,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_10
       rect:
         serializedVersion: 2
-        x: 357
-        y: 385
-        width: 35
+        x: 380
+        y: 390
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -405,9 +405,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_11
       rect:
         serializedVersion: 2
-        x: 392
-        y: 385
-        width: 35
+        x: 418
+        y: 390
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -427,9 +427,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_12
       rect:
         serializedVersion: 2
-        x: 427
-        y: 385
-        width: 35
+        x: 456
+        y: 390
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -449,9 +449,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_13
       rect:
         serializedVersion: 2
-        x: 462
-        y: 385
-        width: 35
+        x: 0
+        y: 330
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -471,9 +471,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_14
       rect:
         serializedVersion: 2
-        x: 7
-        y: 325
-        width: 35
+        x: 38
+        y: 330
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -493,9 +493,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_15
       rect:
         serializedVersion: 2
-        x: 42
-        y: 325
-        width: 35
+        x: 76
+        y: 330
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -515,9 +515,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_16
       rect:
         serializedVersion: 2
-        x: 77
-        y: 325
-        width: 35
+        x: 114
+        y: 330
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -537,9 +537,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_17
       rect:
         serializedVersion: 2
-        x: 112
-        y: 325
-        width: 35
+        x: 152
+        y: 330
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -559,9 +559,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_18
       rect:
         serializedVersion: 2
-        x: 147
-        y: 325
-        width: 35
+        x: 190
+        y: 330
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -581,9 +581,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_19
       rect:
         serializedVersion: 2
-        x: 182
-        y: 325
-        width: 35
+        x: 228
+        y: 330
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -603,9 +603,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_20
       rect:
         serializedVersion: 2
-        x: 217
-        y: 325
-        width: 42
+        x: 266
+        y: 330
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -625,9 +625,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_21
       rect:
         serializedVersion: 2
-        x: 252
-        y: 325
-        width: 35
+        x: 304
+        y: 330
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -647,9 +647,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_22
       rect:
         serializedVersion: 2
-        x: 287
-        y: 325
-        width: 35
+        x: 342
+        y: 330
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -669,9 +669,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_23
       rect:
         serializedVersion: 2
-        x: 322
-        y: 325
-        width: 35
+        x: 380
+        y: 330
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -691,9 +691,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_24
       rect:
         serializedVersion: 2
-        x: 357
-        y: 325
-        width: 35
+        x: 418
+        y: 330
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -713,9 +713,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_25
       rect:
         serializedVersion: 2
-        x: 392
-        y: 325
-        width: 35
+        x: 456
+        y: 330
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -735,9 +735,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_26
       rect:
         serializedVersion: 2
-        x: 427
-        y: 325
-        width: 35
+        x: 0
+        y: 270
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -757,9 +757,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_27
       rect:
         serializedVersion: 2
-        x: 462
-        y: 325
-        width: 35
+        x: 38
+        y: 270
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -779,9 +779,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_28
       rect:
         serializedVersion: 2
-        x: 7
-        y: 265
-        width: 35
+        x: 76
+        y: 270
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -801,9 +801,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_29
       rect:
         serializedVersion: 2
-        x: 42
-        y: 265
-        width: 35
+        x: 114
+        y: 270
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -823,9 +823,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_30
       rect:
         serializedVersion: 2
-        x: 77
-        y: 265
-        width: 35
+        x: 152
+        y: 270
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -845,9 +845,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_31
       rect:
         serializedVersion: 2
-        x: 112
-        y: 265
-        width: 35
+        x: 190
+        y: 270
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -867,9 +867,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_32
       rect:
         serializedVersion: 2
-        x: 147
-        y: 265
-        width: 35
+        x: 228
+        y: 270
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -889,9 +889,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_33
       rect:
         serializedVersion: 2
-        x: 182
-        y: 265
-        width: 35
+        x: 266
+        y: 270
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -911,9 +911,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_34
       rect:
         serializedVersion: 2
-        x: 217
-        y: 266
-        width: 35
+        x: 304
+        y: 270
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -933,9 +933,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_35
       rect:
         serializedVersion: 2
-        x: 252
-        y: 265
-        width: 35
+        x: 342
+        y: 270
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -955,9 +955,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_36
       rect:
         serializedVersion: 2
-        x: 287
-        y: 265
-        width: 35
+        x: 380
+        y: 270
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -977,9 +977,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_37
       rect:
         serializedVersion: 2
-        x: 322
-        y: 265
-        width: 35
+        x: 418
+        y: 270
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -999,9 +999,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_38
       rect:
         serializedVersion: 2
-        x: 357
-        y: 265
-        width: 35
+        x: 456
+        y: 270
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1021,9 +1021,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_39
       rect:
         serializedVersion: 2
-        x: 392
-        y: 265
-        width: 35
+        x: 0
+        y: 210
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1043,9 +1043,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_40
       rect:
         serializedVersion: 2
-        x: 427
-        y: 265
-        width: 35
+        x: 38
+        y: 210
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1065,9 +1065,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_41
       rect:
         serializedVersion: 2
-        x: 462
-        y: 265
-        width: 35
+        x: 76
+        y: 210
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1087,9 +1087,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_42
       rect:
         serializedVersion: 2
-        x: 7
-        y: 205
-        width: 35
+        x: 114
+        y: 210
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1109,9 +1109,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_43
       rect:
         serializedVersion: 2
-        x: 42
-        y: 205
-        width: 35
+        x: 152
+        y: 210
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1131,9 +1131,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_44
       rect:
         serializedVersion: 2
-        x: 77
-        y: 205
-        width: 35
+        x: 190
+        y: 210
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1153,9 +1153,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_45
       rect:
         serializedVersion: 2
-        x: 112
-        y: 205
-        width: 35
+        x: 228
+        y: 210
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1175,9 +1175,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_46
       rect:
         serializedVersion: 2
-        x: 147
-        y: 205
-        width: 35
+        x: 266
+        y: 210
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1197,9 +1197,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_47
       rect:
         serializedVersion: 2
-        x: 182
-        y: 205
-        width: 35
+        x: 304
+        y: 210
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1219,9 +1219,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_48
       rect:
         serializedVersion: 2
-        x: 217
-        y: 205
-        width: 35
+        x: 342
+        y: 210
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1241,9 +1241,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_49
       rect:
         serializedVersion: 2
-        x: 252
-        y: 205
-        width: 35
+        x: 380
+        y: 210
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1263,9 +1263,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_50
       rect:
         serializedVersion: 2
-        x: 287
-        y: 205
-        width: 35
+        x: 418
+        y: 210
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1285,9 +1285,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_51
       rect:
         serializedVersion: 2
-        x: 322
-        y: 205
-        width: 35
+        x: 456
+        y: 210
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1307,9 +1307,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_52
       rect:
         serializedVersion: 2
-        x: 357
-        y: 205
-        width: 35
+        x: 0
+        y: 150
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1329,9 +1329,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_53
       rect:
         serializedVersion: 2
-        x: 392
-        y: 205
-        width: 35
+        x: 38
+        y: 150
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1351,9 +1351,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_54
       rect:
         serializedVersion: 2
-        x: 427
-        y: 205
-        width: 35
+        x: 76
+        y: 150
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1373,9 +1373,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_55
       rect:
         serializedVersion: 2
-        x: 462
-        y: 205
-        width: 35
+        x: 114
+        y: 150
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1395,9 +1395,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_56
       rect:
         serializedVersion: 2
-        x: 7
-        y: 145
-        width: 35
+        x: 152
+        y: 150
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1417,9 +1417,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_57
       rect:
         serializedVersion: 2
-        x: 42
-        y: 145
-        width: 35
+        x: 190
+        y: 150
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1439,9 +1439,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_58
       rect:
         serializedVersion: 2
-        x: 77
-        y: 145
-        width: 35
+        x: 228
+        y: 150
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1461,9 +1461,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_59
       rect:
         serializedVersion: 2
-        x: 112
-        y: 145
-        width: 35
+        x: 266
+        y: 150
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1483,9 +1483,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_60
       rect:
         serializedVersion: 2
-        x: 147
-        y: 145
-        width: 35
+        x: 304
+        y: 150
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1505,9 +1505,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_61
       rect:
         serializedVersion: 2
-        x: 182
-        y: 145
-        width: 35
+        x: 342
+        y: 150
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1527,9 +1527,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_62
       rect:
         serializedVersion: 2
-        x: 217
-        y: 145
-        width: 35
+        x: 380
+        y: 150
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1549,9 +1549,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_63
       rect:
         serializedVersion: 2
-        x: 252
-        y: 145
-        width: 35
+        x: 418
+        y: 150
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1571,9 +1571,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_64
       rect:
         serializedVersion: 2
-        x: 287
-        y: 145
-        width: 35
+        x: 456
+        y: 150
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1593,9 +1593,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_65
       rect:
         serializedVersion: 2
-        x: 322
-        y: 145
-        width: 35
+        x: 0
+        y: 90
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1615,9 +1615,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_66
       rect:
         serializedVersion: 2
-        x: 357
-        y: 145
-        width: 35
+        x: 38
+        y: 90
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1637,9 +1637,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_67
       rect:
         serializedVersion: 2
-        x: 392
-        y: 145
-        width: 35
+        x: 76
+        y: 90
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1659,9 +1659,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_68
       rect:
         serializedVersion: 2
-        x: 427
-        y: 145
-        width: 35
+        x: 114
+        y: 90
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1681,9 +1681,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_69
       rect:
         serializedVersion: 2
-        x: 462
-        y: 145
-        width: 35
+        x: 152
+        y: 90
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1703,9 +1703,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_70
       rect:
         serializedVersion: 2
-        x: 7
-        y: 85
-        width: 35
+        x: 190
+        y: 90
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1725,9 +1725,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_71
       rect:
         serializedVersion: 2
-        x: 42
-        y: 85
-        width: 35
+        x: 228
+        y: 90
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1747,9 +1747,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_72
       rect:
         serializedVersion: 2
-        x: 77
-        y: 85
-        width: 35
+        x: 266
+        y: 90
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1769,9 +1769,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_73
       rect:
         serializedVersion: 2
-        x: 112
-        y: 85
-        width: 35
+        x: 304
+        y: 90
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1791,9 +1791,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_74
       rect:
         serializedVersion: 2
-        x: 147
-        y: 85
-        width: 35
+        x: 342
+        y: 90
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1813,9 +1813,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_75
       rect:
         serializedVersion: 2
-        x: 182
-        y: 85
-        width: 35
+        x: 380
+        y: 90
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1835,9 +1835,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_76
       rect:
         serializedVersion: 2
-        x: 217
-        y: 85
-        width: 35
+        x: 418
+        y: 90
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1857,9 +1857,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_77
       rect:
         serializedVersion: 2
-        x: 252
-        y: 85
-        width: 35
+        x: 456
+        y: 90
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1879,9 +1879,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_78
       rect:
         serializedVersion: 2
-        x: 287
-        y: 85
-        width: 35
+        x: 0
+        y: 30
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1901,9 +1901,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_79
       rect:
         serializedVersion: 2
-        x: 322
-        y: 85
-        width: 35
+        x: 38
+        y: 30
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1923,9 +1923,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_80
       rect:
         serializedVersion: 2
-        x: 357
-        y: 85
-        width: 35
+        x: 76
+        y: 30
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1945,9 +1945,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_81
       rect:
         serializedVersion: 2
-        x: 392
-        y: 85
-        width: 35
+        x: 114
+        y: 30
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1967,9 +1967,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_82
       rect:
         serializedVersion: 2
-        x: 427
-        y: 85
-        width: 35
+        x: 152
+        y: 30
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1989,9 +1989,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_83
       rect:
         serializedVersion: 2
-        x: 462
-        y: 85
-        width: 35
+        x: 190
+        y: 30
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2011,9 +2011,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_84
       rect:
         serializedVersion: 2
-        x: 7
-        y: 25
-        width: 35
+        x: 228
+        y: 30
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2033,9 +2033,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_85
       rect:
         serializedVersion: 2
-        x: 42
-        y: 25
-        width: 35
+        x: 266
+        y: 30
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2055,9 +2055,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_86
       rect:
         serializedVersion: 2
-        x: 77
-        y: 25
-        width: 35
+        x: 304
+        y: 30
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2077,9 +2077,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_87
       rect:
         serializedVersion: 2
-        x: 112
-        y: 25
-        width: 35
+        x: 342
+        y: 30
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2099,9 +2099,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_88
       rect:
         serializedVersion: 2
-        x: 147
-        y: 25
-        width: 35
+        x: 380
+        y: 30
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2121,9 +2121,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_89
       rect:
         serializedVersion: 2
-        x: 182
-        y: 25
-        width: 35
+        x: 418
+        y: 30
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2143,9 +2143,9 @@ TextureImporter:
       name: runner_sprite-removebg-preview_90
       rect:
         serializedVersion: 2
-        x: 217
-        y: 25
-        width: 35
+        x: 456
+        y: 30
+        width: 38
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2157,160 +2157,6 @@ TextureImporter:
       bones: []
       spriteID: d03db789e16fb47728bca13c9af3d281
       internalID: -425187556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: runner_sprite-removebg-preview_91
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 25
-        width: 35
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b25d7295f5c046e0911d5e8e3d59683
-      internalID: 1366666878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: runner_sprite-removebg-preview_92
-      rect:
-        serializedVersion: 2
-        x: 287
-        y: 25
-        width: 35
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30c95527212d84109892f138feb05c75
-      internalID: 105422391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: runner_sprite-removebg-preview_93
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 25
-        width: 35
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3c8aa862f219480f87188f766434d2b
-      internalID: 1369404038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: runner_sprite-removebg-preview_94
-      rect:
-        serializedVersion: 2
-        x: 357
-        y: 25
-        width: 35
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4129cc10daf264e6781da17c05f88526
-      internalID: 1264077882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: runner_sprite-removebg-preview_95
-      rect:
-        serializedVersion: 2
-        x: 392
-        y: 25
-        width: 35
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fcbd496e73a7f49c59fd941f40c3a4a0
-      internalID: -646604551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: runner_sprite-removebg-preview_96
-      rect:
-        serializedVersion: 2
-        x: 427
-        y: 25
-        width: 35
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67cad7d1c32034774a78e8da42f06895
-      internalID: -561058494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: runner_sprite-removebg-preview_97
-      rect:
-        serializedVersion: 2
-        x: 462
-        y: 25
-        width: 35
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d05e7b1d0cbe942c7b1f5b26285e93cf
-      internalID: -445005320
       vertices: []
       indices: 
       edges: []
@@ -2329,7 +2175,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":35.0,"y":60.0},"gridSpriteOffset":{"x":7.0,"y":55.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":38.0,"y":60.0},"gridSpriteOffset":{"x":0.0,"y":50.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       runner_sprite-removebg-preview_0: 6359707599850677140
       runner_sprite-removebg-preview_1: 2644319579345802467
@@ -2422,13 +2268,6 @@ TextureImporter:
       runner_sprite-removebg-preview_89: 1599389010
       runner_sprite-removebg-preview_9: 6233044288054796615
       runner_sprite-removebg-preview_90: -425187556
-      runner_sprite-removebg-preview_91: 1366666878
-      runner_sprite-removebg-preview_92: 105422391
-      runner_sprite-removebg-preview_93: 1369404038
-      runner_sprite-removebg-preview_94: 1264077882
-      runner_sprite-removebg-preview_95: -646604551
-      runner_sprite-removebg-preview_96: -561058494
-      runner_sprite-removebg-preview_97: -445005320
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

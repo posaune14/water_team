@@ -2,6 +2,15 @@
 
 public class Movement : MonoBehaviour 
 {
+    Animator m_Animator;
+    public GameObject gameobject;
+
+    void Start()
+    {
+
+        m_Animator = gameobject.GetComponent<Animator>();
+
+    }
 
 
 
@@ -15,23 +24,7 @@ public class Movement : MonoBehaviour
     void Update() //what does this mean? 
     {
         ProcessedInputs();
-        if (Input.GetKey(KeyCode.UpArrow))
 
-        {
-            m_Animator.ResetTrigger("Crouch");
-
-            m_Animator.SetTrigger("Jump");
-
-        }
-
-        {
-            m_Animator.ResetTrigger("Jump");
-            
-            m_Animator.SetTrigger("Crouch");
-
-
-
-        }
 
     }
 
@@ -44,10 +37,37 @@ public class Movement : MonoBehaviour
     {
          float moveX = Input.GetAxisRaw("Horizontal");
          float moveY = Input.GetAxisRaw("Vertical");
-         moveDirection = new Vector2(moveX, moveY).normalized;
+         Debug.Log(moveX);
+         if (moveX>0)
+         {
 
+            m_Animator.SetTrigger("right_key");
+            
+            
+         }
+
+         
+         Debug.Log(moveY);
+         if (moveY>0)
+
+         {
+
+            m_Animator.SetTrigger("up_key");
+
+         }
+
+         if (moveY<0)
+         {
+
+            m_Animator.SetTrigger("down_key");
+
+
+
+         }
+
+         moveDirection = new Vector2(moveX, moveY).normalized;   
     }
-
+         
     void Move()
     {
         rb.linearVelocity = new Vector2(moveDirection.x * speed, moveDirection.y*speed);
@@ -60,9 +80,6 @@ public class Movement : MonoBehaviour
 
     //start is called before the first frame update 
 
+}
+
     
-
-
-
-
-}   
