@@ -22,6 +22,7 @@ public static class ProceduralGenerationAlgorithms
     }   
 }
 
+//to create a random vector2 to add to the path 
 public static class Direction2D
 {
     public static List<Vector2Int> CardinalDirectionsList = new List<Vector2Int>
