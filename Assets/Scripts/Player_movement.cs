@@ -5,6 +5,7 @@ public class Movement : MonoBehaviour
     Animator m_Animator;
     public GameObject gameobject;
     public SpriteRenderer sprite_renderer; 
+  
 
     void Start()
     {
@@ -42,20 +43,26 @@ public class Movement : MonoBehaviour
          if (moveX>0)
          {
 
-            m_Animator.SetTrigger("right_key");
+            m_Animator.SetBool("right_bool",true);
             sprite_renderer.flipX = false;
             
             
+         }else{
+
+            m_Animator.SetBool("right_bool",false);
+
          }
 
          if (moveX<0)
          {
 
-            m_Animator.SetTrigger("left_key");
+            m_Animator.SetBool("left_bool", true);
             sprite_renderer.flipX = true;
     
             
             
+         }else{
+            m_Animator.SetBool("left_bool", false);
          }
 
          
@@ -64,17 +71,19 @@ public class Movement : MonoBehaviour
 
          {
 
-            m_Animator.SetTrigger("up_key");
+            m_Animator.SetBool("up_bool", true);
 
+         }else{
+            m_Animator.SetBool("up_bool",false);
          }
 
          if (moveY<0)
          {
 
-            m_Animator.SetTrigger("down_key");
+            m_Animator.SetBool("down_bool",true);
 
-
-
+         }else{
+            m_Animator.SetBool("down_bool",false);
          }
 
          moveDirection = new Vector2(moveX, moveY).normalized;   
@@ -86,9 +95,7 @@ public class Movement : MonoBehaviour
 
     }
 
-    Animator anim;
-    private Vector2 lastMoveDirection;
-    private bool facingLeft = true; //sprite facing left 
+   
 
     //start is called before the first frame update 
 
