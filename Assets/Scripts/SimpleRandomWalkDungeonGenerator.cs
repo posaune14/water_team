@@ -2,26 +2,21 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class SimpleRandomWalkMapGenerator: MonoBehaviour
+public class SimpleRandomWalkMapGenerator: AbstractDungeonGenerator
 {
-    [SerializeField]
-    protected Vector2Int startPosition = Vector2Int.zero;
-
     [SerializeField] 
     private int iterations = 10;
     [SerializeField] 
     public int walkLength = 10;
     [SerializeField]
     public bool startRandomlyEachInteration = true;
-    
-    [SerializeField]
-    private TilemapVisualizer tilemapVisualizer;
 
-    public void RunProceduralGeneration()
+    protected override void RunProceduralGeneration()
     {
         HashSet<Vector2Int> floorPositions = RunRandomWalk();
         tilemapVisualizer.Clear();
         tilemapVisualizer.PaintFloorTiles(floorPositions);
+        WallGenerator.CreateWalls(floorPositions, tilemapVisualizer);
     }
 
     protected HashSet<Vector2Int> RunRandomWalk()
