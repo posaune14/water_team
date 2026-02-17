@@ -20,10 +20,10 @@ public static class WallGenerator
         {
             foreach (var direction in directionList)
             {
-                var neighboorPosition = position + direction;
-                if (floorPositions.Contains(neighboorPosition) == false)
+                var neighborPosition = position + direction;
+                if (floorPositions.Contains(neighborPosition) == false)
                 {
-                    wallPositions.Add(neighboorPosition);
+                    wallPositions.Add(neighborPosition);
                 }
             }
         }
