@@ -40,8 +40,6 @@ public class Movement : MonoBehaviour
          float moveX = Input.GetAxisRaw("Horizontal");
          float moveY = Input.GetAxisRaw("Vertical");
 
-         Debug.Log(moveX);
-         Debug.Log(moveY);
 
          m_Animator.SetBool("right_bool",false);
          m_Animator.SetBool("left_bool",false);
