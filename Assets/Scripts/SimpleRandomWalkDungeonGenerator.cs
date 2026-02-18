@@ -17,6 +17,8 @@ public class SimpleRandomWalkMapGenerator: AbstractDungeonGenerator
         tilemapVisualizer.Clear();
         tilemapVisualizer.PaintFloorTiles(floorPositions);
         WallGenerator.CreateWalls(floorPositions, tilemapVisualizer);
+        SpawnPlayer(floorPositions);
+        
     }
 
     protected HashSet<Vector2Int> RunRandomWalk()
@@ -31,5 +33,12 @@ public class SimpleRandomWalkMapGenerator: AbstractDungeonGenerator
                 currentPosition = floorPositions.ElementAt(Random.Range(0, floorPositions.Count));
         }
         return floorPositions;
+    }
+
+    private static void SpawnPlayer(HashSet<Vector2Int> positions)
+    {
+        //for each loop of hashset, take first value as position at which to spawn the player
+        
+        
     }
 }
