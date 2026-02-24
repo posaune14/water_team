@@ -11,6 +11,11 @@ public class SimpleRandomWalkMapGenerator: AbstractDungeonGenerator
     [SerializeField]
     public bool startRandomlyEachInteration = true;
 
+    [SerializeField]
+    public GameObject player;        
+    
+    private Vector3Int start;
+
     protected override void RunProceduralGeneration()
     {
         HashSet<Vector2Int> floorPositions = RunRandomWalk();
@@ -35,10 +40,15 @@ public class SimpleRandomWalkMapGenerator: AbstractDungeonGenerator
         return floorPositions;
     }
 
-    private static void SpawnPlayer(HashSet<Vector2Int> positions)
+    private void SpawnPlayer(HashSet<Vector2Int> positions)
     {
-        //for each loop of hashset, take first value as position at which to spawn the player
+        foreach (var position in positions)
+        {
+            start = new Vector3Int(position.x, position.y, 0);
+            break;
+        }
         
-        
+        Instantiate(player, start, Quaternion.identity);
+
     }
 }
