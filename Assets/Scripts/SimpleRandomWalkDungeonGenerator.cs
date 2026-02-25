@@ -44,10 +44,17 @@ public class SimpleRandomWalkMapGenerator: AbstractDungeonGenerator
 
     private void SpawnPlayer(HashSet<Vector2Int> positions)
     {
+        //removing prior copies of prefab 
+        GameObject clone = GameObject.Find("Player_1(Clone)");
+        //if clone is the same as if(clone!=null)s
+        if(clone)
+            DestroyImmediate(clone);
+        
+        //convert to list because otherwise always retreives 0,0, even though hashset is theoretically unordered, 0,0
+        //is first always
         Vector2Int[] coordinates = positions.ToArray();
         startPosition = coordinates[UnityEngine.Random.Range(0, coordinates.Length)];
         start = new Vector3Int(startPosition.x, startPosition.y, 0);
         Instantiate(player, start, Quaternion.identity);
-
     }
 }
