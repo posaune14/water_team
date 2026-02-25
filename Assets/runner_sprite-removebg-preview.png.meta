@@ -1,0 +1,2275 @@
+fileFormatVersion: 2
+guid: 52a1863a033844272bb7bb8b1c65e4a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6359707599850677140
+    second: runner_sprite-removebg-preview_0
+  - first:
+      213: 2644319579345802467
+    second: runner_sprite-removebg-preview_1
+  - first:
+      213: 7690306505571369236
+    second: runner_sprite-removebg-preview_2
+  - first:
+      213: -7012323864950615872
+    second: runner_sprite-removebg-preview_3
+  - first:
+      213: -4442525369165314343
+    second: runner_sprite-removebg-preview_4
+  - first:
+      213: 2806504838445393605
+    second: runner_sprite-removebg-preview_5
+  - first:
+      213: -7611122505072802694
+    second: runner_sprite-removebg-preview_6
+  - first:
+      213: -7678753936625886979
+    second: runner_sprite-removebg-preview_7
+  - first:
+      213: 2103077688214989673
+    second: runner_sprite-removebg-preview_8
+  - first:
+      213: 6233044288054796615
+    second: runner_sprite-removebg-preview_9
+  - first:
+      213: -6885997184503865547
+    second: runner_sprite-removebg-preview_10
+  - first:
+      213: -7647468077465094218
+    second: runner_sprite-removebg-preview_11
+  - first:
+      213: -4566875374011507302
+    second: runner_sprite-removebg-preview_12
+  - first:
+      213: -3704479079573691588
+    second: runner_sprite-removebg-preview_13
+  - first:
+      213: -7985595966576498251
+    second: runner_sprite-removebg-preview_14
+  - first:
+      213: 6028109305788264689
+    second: runner_sprite-removebg-preview_15
+  - first:
+      213: -5852083620482808712
+    second: runner_sprite-removebg-preview_16
+  - first:
+      213: -359519681661398087
+    second: runner_sprite-removebg-preview_17
+  - first:
+      213: 112647888031796607
+    second: runner_sprite-removebg-preview_18
+  - first:
+      213: -4256785965141013015
+    second: runner_sprite-removebg-preview_19
+  - first:
+      213: -5685108107292944784
+    second: runner_sprite-removebg-preview_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493a37ced58324850800000000000000
+      internalID: 6359707599850677140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 390
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4548fa5a282b420800000000000000
+      internalID: 2644319579345802467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 390
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4110576950579ba60800000000000000
+      internalID: 7690306505571369236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 390
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0df9309983fae90800000000000000
+      internalID: -7012323864950615872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 390
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d68d39d6baf852c0800000000000000
+      internalID: -4442525369165314343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 390
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6e3f3f745b2f620800000000000000
+      internalID: 2806504838445393605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 390
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a748727386cdf5690800000000000000
+      internalID: -7611122505072802694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 390
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df818c97af59f6590800000000000000
+      internalID: -7678753936625886979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 390
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96baa1dc302af2d10800000000000000
+      internalID: 2103077688214989673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 390
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741a8c281c8308650800000000000000
+      internalID: 6233044288054796615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 390
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f9e455b060070a0800000000000000
+      internalID: -6885997184503865547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 390
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7bd833d4cbed590800000000000000
+      internalID: -7647468077465094218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 390
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d909e2b033f90c0800000000000000
+      internalID: -4566875374011507302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33e42087eb079cc0800000000000000
+      internalID: -3704479079573691588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 330
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b96a6427c67d2190800000000000000
+      internalID: -7985595966576498251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 330
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f07cbea97528a350800000000000000
+      internalID: 6028109305788264689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 330
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8748d3de3f839cea0800000000000000
+      internalID: -5852083620482808712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 330
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b39fcc11cab20bf0800000000000000
+      internalID: -359519681661398087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 330
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d45d648a4309100800000000000000
+      internalID: 112647888031796607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 330
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edc6e6d7bbdce4c0800000000000000
+      internalID: -4256785965141013015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 330
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0765c132c407a11b0800000000000000
+      internalID: -5685108107292944784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 330
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a591891bea54a40a80e2b3b33aeacf
+      internalID: 1093907414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 330
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3a8d81ff3b743368fab4e5f143218f
+      internalID: 1743901086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 330
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f11992ca2be4d02987723ea5e299a3
+      internalID: 229671839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 330
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63656fba621914e60a94f8fbacc6cde9
+      internalID: 1359975410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 330
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7c578e683574dd7a6e17e1afcf2ef9
+      internalID: -1753171545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa13f9b25ab674d1abc01c13af936d1c
+      internalID: 791128286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 270
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc783f4092e4480f8bfa0b72a99cc57
+      internalID: -1053986411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 270
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1810ed1d448f5408b9c639baba14715e
+      internalID: -1364350339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 270
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cb74e251c264ce2b3f81fd8f18e7b2
+      internalID: 1370252858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 270
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e24003522e8644b6a405cc88b427191
+      internalID: -557017346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 270
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d78ffc35ea7b4b7596126b3b512da61
+      internalID: 100466470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 270
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af628513784143209eab14ba7b8ba48
+      internalID: -389949927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 270
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc8a038571e548bd9b42f6d180a456c
+      internalID: 265768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 270
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea3c5f6dfe284d64b80669777f144aa
+      internalID: 979156327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 270
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a162cab5672404234ac50dbdbef46757
+      internalID: -423598245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 270
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d081be8e2d7374051acd11a8cc606690
+      internalID: -1946375222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 270
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be44b54aab5c46ea9481cb50a93ba1e
+      internalID: -251038264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 270
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0356bfad569c14bcfb1ebba7b150f684
+      internalID: 1511768909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d63a14060aa4f519f9bc661775b78d
+      internalID: 723764984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 210
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7519fb8b57b6e479d9445b282d23b7e0
+      internalID: -30242931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 210
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85608b66b93304ac494c32cfe208dcff
+      internalID: -759667495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 210
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1fddffc948349e9b529663c8fa4771
+      internalID: -1659119020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 210
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453f2edd8515d4bef812b9a5a5064118
+      internalID: -1161950627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 210
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1716eeae3f6a44ac883ba46348db3c5
+      internalID: 302829634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 210
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b47bff989f0244cca08d776844bb545
+      internalID: 349369820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 210
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82636bd014964c05b05b37c77ec27c1
+      internalID: -857218579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 210
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0780fc283f2794353b36f1996f70a6a5
+      internalID: -709015374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 210
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc96f1cc7e9544a987fa6ae7fe63a96
+      internalID: 492691986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 210
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53e1d9459f244328b3981d42ae05b92
+      internalID: 1942914853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 210
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91db68bfb02cb4e15afd49e08f519206
+      internalID: 1187608527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 210
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7217af3637fbe4a2cb9a3b916a791c90
+      internalID: -1623832478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57f54bc2c95a4484a4e7e594639d8ed
+      internalID: -360127168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 150
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6042861a650f44d3881374c724593e5
+      internalID: -2016347373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 150
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8ef183bd4a74274810adc937236819
+      internalID: 1461210288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 150
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4021b4fd5a9a74028866c3bc15ef2b78
+      internalID: 1767658624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 150
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841dba05c046c416288720b4bc7e8c82
+      internalID: -735832555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 150
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1349488471ecc442ebb407230d7fd868
+      internalID: 250015100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 150
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557be8e0b4f0e48b99f0f7e61ecb113f
+      internalID: -1040440146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 150
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90ac3e0881dd4cd2a31161fbc365ce0
+      internalID: -173912302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 150
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b3be83d7dad46ccaccc53c887d75c8
+      internalID: 442463603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 150
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8516f58be2e14f1a9e0dd2c2821d0cc
+      internalID: -1195969595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 150
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06106d7989b05451da14cf465f3c4cea
+      internalID: -822193596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 150
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4180d667322db4cebbd35c4bc776301b
+      internalID: 504233660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 150
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def6530b1802942d2b02fca1fd3c6cfc
+      internalID: 1849938893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ba111ee485a49459ee056cf80db0d6
+      internalID: 1343502676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 90
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc7f970be9c6470d9247b1d6989a12f
+      internalID: -655169844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 90
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2863f1563ddd24a05a664284f07c7a78
+      internalID: 267732831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 90
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881da3881be3b44779ce4c6130958108
+      internalID: 149055593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 90
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22af06b3699a44158e637c43a15246e
+      internalID: -1543009576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 90
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0440def8dcd654fe5b657fd96584df88
+      internalID: 1806857530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 90
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6457a55898048414cbf339c394e78573
+      internalID: 1583175154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 90
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1baf023dc534a049a17d84703d29de
+      internalID: -1325741038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 90
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92594b3a31b7c4a24ae51e5bc7e023bc
+      internalID: -1051244002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 90
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4a02d097413431a9eeb9b111ca0138
+      internalID: 746016939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 90
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b34bea0acde84719bce2ba8561f91e7
+      internalID: -1642105169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 90
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405cd3b14a5ba457f8a9487639445688
+      internalID: -1235651520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 90
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e05150ca96c4d559b281c1e9ea6c55
+      internalID: 89559511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1075a23b278a423f8ec6ada2d3d47a3
+      internalID: -1785689543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 30
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9dc7cb3e3ac465583af642e8c59def
+      internalID: -1068520749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 30
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25931269b760475a928c0a1d760789b
+      internalID: -1010172164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 30
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e58e868e67ce4f709443fd011d8dc23
+      internalID: 1389795755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 30
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685e3e08a475a48e882fe13a47f0c6df
+      internalID: 604471672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 30
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7dc762304fd491f8dd8c4299ecf4c3
+      internalID: -623753719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 30
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c62c6e162f54de8ad53e150819dd11
+      internalID: 15669559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 30
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625ee3704e9fb4ee1965a2fc576fbd3b
+      internalID: 1886963202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 30
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1684600796de464da6f4c51acd8725b
+      internalID: -1268144459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 30
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d067f2f5afc974f3980930a1d058809b
+      internalID: -1517737301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_88
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 30
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe7a6bfa6e8e429db3a05198fe8adfd
+      internalID: 1258132565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_89
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 30
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d656756b7c6464d36a7fa2e72c3c85d4
+      internalID: 1599389010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner_sprite-removebg-preview_90
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 30
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03db789e16fb47728bca13c9af3d281
+      internalID: -425187556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 129286ac6b81f479ca4282381621a26c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":38.0,"y":60.0},"gridSpriteOffset":{"x":0.0,"y":50.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      runner_sprite-removebg-preview_0: 6359707599850677140
+      runner_sprite-removebg-preview_1: 2644319579345802467
+      runner_sprite-removebg-preview_10: -6885997184503865547
+      runner_sprite-removebg-preview_11: -7647468077465094218
+      runner_sprite-removebg-preview_12: -4566875374011507302
+      runner_sprite-removebg-preview_13: -3704479079573691588
+      runner_sprite-removebg-preview_14: -7985595966576498251
+      runner_sprite-removebg-preview_15: 6028109305788264689
+      runner_sprite-removebg-preview_16: -5852083620482808712
+      runner_sprite-removebg-preview_17: -359519681661398087
+      runner_sprite-removebg-preview_18: 112647888031796607
+      runner_sprite-removebg-preview_19: -4256785965141013015
+      runner_sprite-removebg-preview_2: 7690306505571369236
+      runner_sprite-removebg-preview_20: -5685108107292944784
+      runner_sprite-removebg-preview_21: 1093907414
+      runner_sprite-removebg-preview_22: 1743901086
+      runner_sprite-removebg-preview_23: 229671839
+      runner_sprite-removebg-preview_24: 1359975410
+      runner_sprite-removebg-preview_25: -1753171545
+      runner_sprite-removebg-preview_26: 791128286
+      runner_sprite-removebg-preview_27: -1053986411
+      runner_sprite-removebg-preview_28: -1364350339
+      runner_sprite-removebg-preview_29: 1370252858
+      runner_sprite-removebg-preview_3: -7012323864950615872
+      runner_sprite-removebg-preview_30: -557017346
+      runner_sprite-removebg-preview_31: 100466470
+      runner_sprite-removebg-preview_32: -389949927
+      runner_sprite-removebg-preview_33: 265768
+      runner_sprite-removebg-preview_34: 979156327
+      runner_sprite-removebg-preview_35: -423598245
+      runner_sprite-removebg-preview_36: -1946375222
+      runner_sprite-removebg-preview_37: -251038264
+      runner_sprite-removebg-preview_38: 1511768909
+      runner_sprite-removebg-preview_39: 723764984
+      runner_sprite-removebg-preview_4: -4442525369165314343
+      runner_sprite-removebg-preview_40: -30242931
+      runner_sprite-removebg-preview_41: -759667495
+      runner_sprite-removebg-preview_42: -1659119020
+      runner_sprite-removebg-preview_43: -1161950627
+      runner_sprite-removebg-preview_44: 302829634
+      runner_sprite-removebg-preview_45: 349369820
+      runner_sprite-removebg-preview_46: -857218579
+      runner_sprite-removebg-preview_47: -709015374
+      runner_sprite-removebg-preview_48: 492691986
+      runner_sprite-removebg-preview_49: 1942914853
+      runner_sprite-removebg-preview_5: 2806504838445393605
+      runner_sprite-removebg-preview_50: 1187608527
+      runner_sprite-removebg-preview_51: -1623832478
+      runner_sprite-removebg-preview_52: -360127168
+      runner_sprite-removebg-preview_53: -2016347373
+      runner_sprite-removebg-preview_54: 1461210288
+      runner_sprite-removebg-preview_55: 1767658624
+      runner_sprite-removebg-preview_56: -735832555
+      runner_sprite-removebg-preview_57: 250015100
+      runner_sprite-removebg-preview_58: -1040440146
+      runner_sprite-removebg-preview_59: -173912302
+      runner_sprite-removebg-preview_6: -7611122505072802694
+      runner_sprite-removebg-preview_60: 442463603
+      runner_sprite-removebg-preview_61: -1195969595
+      runner_sprite-removebg-preview_62: -822193596
+      runner_sprite-removebg-preview_63: 504233660
+      runner_sprite-removebg-preview_64: 1849938893
+      runner_sprite-removebg-preview_65: 1343502676
+      runner_sprite-removebg-preview_66: -655169844
+      runner_sprite-removebg-preview_67: 267732831
+      runner_sprite-removebg-preview_68: 149055593
+      runner_sprite-removebg-preview_69: -1543009576
+      runner_sprite-removebg-preview_7: -7678753936625886979
+      runner_sprite-removebg-preview_70: 1806857530
+      runner_sprite-removebg-preview_71: 1583175154
+      runner_sprite-removebg-preview_72: -1325741038
+      runner_sprite-removebg-preview_73: -1051244002
+      runner_sprite-removebg-preview_74: 746016939
+      runner_sprite-removebg-preview_75: -1642105169
+      runner_sprite-removebg-preview_76: -1235651520
+      runner_sprite-removebg-preview_77: 89559511
+      runner_sprite-removebg-preview_78: -1785689543
+      runner_sprite-removebg-preview_79: -1068520749
+      runner_sprite-removebg-preview_8: 2103077688214989673
+      runner_sprite-removebg-preview_80: -1010172164
+      runner_sprite-removebg-preview_81: 1389795755
+      runner_sprite-removebg-preview_82: 604471672
+      runner_sprite-removebg-preview_83: -623753719
+      runner_sprite-removebg-preview_84: 15669559
+      runner_sprite-removebg-preview_85: 1886963202
+      runner_sprite-removebg-preview_86: -1268144459
+      runner_sprite-removebg-preview_87: -1517737301
+      runner_sprite-removebg-preview_88: 1258132565
+      runner_sprite-removebg-preview_89: 1599389010
+      runner_sprite-removebg-preview_9: 6233044288054796615
+      runner_sprite-removebg-preview_90: -425187556
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
