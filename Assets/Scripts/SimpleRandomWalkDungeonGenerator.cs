@@ -1,6 +1,8 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class SimpleRandomWalkMapGenerator: AbstractDungeonGenerator
 {
@@ -42,12 +44,9 @@ public class SimpleRandomWalkMapGenerator: AbstractDungeonGenerator
 
     private void SpawnPlayer(HashSet<Vector2Int> positions)
     {
-        foreach (var position in positions)
-        {
-            start = new Vector3Int(position.x, position.y, 0);
-            break;
-        }
-        
+        Vector2Int[] coordinates = positions.ToArray();
+        startPosition = coordinates[UnityEngine.Random.Range(0, coordinates.Length)];
+        start = new Vector3Int(startPosition.x, startPosition.y, 0);
         Instantiate(player, start, Quaternion.identity);
 
     }
