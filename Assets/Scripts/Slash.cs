@@ -16,8 +16,8 @@ public class Slash : MonoBehaviour
         if(Mouse.current.leftButton.wasPressedThisFrame)
         {
             square.SetActive(true);
-            Debug.Log("left clicked.");
-            Invoke("Disappear", 1f);
+            //Debug.Log("left clicked.");
+            Invoke("Disappear", 0.45f);
             
 
         }
