@@ -5,8 +5,11 @@ using UnityEngine.InputSystem;
 public class Slash : MonoBehaviour
 {
     public GameObject square;
+    //public Transform player;
+    public Transform target;
     void Start()
     {
+        target = GameObject.FindWithTag("Player").transform;
         square.SetActive(false);
     }
 
@@ -15,8 +18,10 @@ public class Slash : MonoBehaviour
     {
         if(Mouse.current.leftButton.wasPressedThisFrame)
         {
+
+            transform.position = target.position;
             square.SetActive(true);
-            //Debug.Log("left clicked.");
+            Debug.Log("left clicked." + target.position);
             Invoke("Disappear", 0.45f);
             
 

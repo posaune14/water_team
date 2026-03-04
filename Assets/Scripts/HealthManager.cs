@@ -20,14 +20,14 @@ public class HealthManager : MonoBehaviour
             Application.LoadLevel(Application.loadedLevel);
         }
 
-        if(Keyboard.current.dKey.wasPressedThisFrame)
-        {
-            TakeDamage(20);
-        }
-        if(Keyboard.current.hKey.wasPressedThisFrame)
-        {
-            Heal(10);
-        }
+        //if(Keyboard.current.minusKey.wasPressedThisFrame)
+        //{
+            //TakeDamage(20);
+        ///}
+        //if(Keyboard.current.Key.wasPressedThisFrame)
+        ///{
+            ///Heal(10);
+        //}
     }   
     public void TakeDamage(float damage){
         healthAmount -= damage;
