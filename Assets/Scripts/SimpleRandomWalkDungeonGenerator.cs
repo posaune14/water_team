@@ -7,9 +7,9 @@ using Random = UnityEngine.Random;
 public class SimpleRandomWalkMapGenerator: AbstractDungeonGenerator
 {
     [SerializeField] 
-    private int iterations = 10;
+    private int iterations = 82;
     [SerializeField] 
-    public int walkLength = 10;
+    public int walkLength = 22;
     [SerializeField]
     public bool startRandomlyEachInteration = true;
 
@@ -50,7 +50,7 @@ public class SimpleRandomWalkMapGenerator: AbstractDungeonGenerator
         if(clone)
             DestroyImmediate(clone);
         
-        //convert to list because otherwise always retreives 0,0, even though hashset is theoretically unordered, 0,0
+        //convert to list because otherwise always retrieves 0,0, even though hashset is theoretically unordered, 0,0
         //is first always
         Vector2Int[] coordinates = positions.ToArray();
         startPosition = coordinates[UnityEngine.Random.Range(0, coordinates.Length)];
