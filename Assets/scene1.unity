@@ -191,6 +191,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Generate
 
+
 '
 --- !u!222 &233650320
 CanvasRenderer:
@@ -262,7 +263,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 22
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -7422,7 +7423,6 @@ MonoBehaviour:
   walkLength: 22
   startRandomlyEachInteration: 1
   player: {fileID: 0}
-  start: {x: 0, y: 0, z: 0}
   enemies: 0
 --- !u!4 &1431465419
 Transform:
