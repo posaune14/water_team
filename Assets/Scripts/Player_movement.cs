@@ -39,7 +39,7 @@ public class Movement : MonoBehaviour
     {
          float moveX = Input.GetAxisRaw("Horizontal");
          float moveY = Input.GetAxisRaw("Vertical");
-         Debug.Log(moveX);
+         //Debug.Log(moveX);
          if (moveX>0)
          {
 
@@ -66,7 +66,7 @@ public class Movement : MonoBehaviour
          }
 
          
-         Debug.Log(moveY);
+         //Debug.Log(moveY);
          if (moveY>0)
 
          {
