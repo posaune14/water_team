@@ -4,7 +4,7 @@ using UnityEngine;
     
 public class GameControl: SimpleRandomWalkMapGenerator
 {
-    private int enemies = 1;
+    private int enemies = 0;
 
     public void Start()
     {
