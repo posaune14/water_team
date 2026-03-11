@@ -658,7 +658,7 @@ GameObject:
   - component: {fileID: 812092241}
   - component: {fileID: 812092246}
   m_Layer: 0
-  m_Name: Player_1(Clone)
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7628,7 +7628,7 @@ MonoBehaviour:
   iterations: 82
   walkLength: 22
   startRandomlyEachInteration: 1
-  player: {fileID: 8115446472634372753, guid: 81a93f189b10f42cf9ccfc588e57e79b, type: 3}
+  player: {fileID: 812092240}
 --- !u!4 &1431465419
 Transform:
   m_ObjectHideFlags: 0
