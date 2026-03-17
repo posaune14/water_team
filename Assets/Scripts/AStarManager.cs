@@ -74,7 +74,47 @@ public class AStarManager : MonoBehaviour
         }
         return null;
     } 
-    
+    public Nodes FindNearestNode(Vector2 pos)
+    {
+        Nodes foundNode = null;
+        float minDistance = float.MaxValue;
+
+        foreach(Nodes node in FindObjectsOfType<Nodes>())
+        {
+            float currentDistance = Vector2.Distance(pos, node.transform.position);
+
+            if(currentDistance < minDistance)
+            {
+                minDistance = currentDistance;
+                foundNode = node;
+            }
+        }
+
+        return foundNode;
+    }
+
+    public Nodes FindFurthestNode(Vector2 pos)
+    {
+        Nodes foundNode = null;
+        float maxDistance = default;
+
+        foreach (Nodes node in FindObjectsOfType<Nodes>())
+        {
+            float currentDistance = Vector2.Distance(pos, node.transform.position);
+            if(currentDistance > maxDistance)
+            {
+                maxDistance = currentDistance;
+                foundNode = node;
+            }
+        }
+
+        return foundNode;
+    }
+
+    public Nodes[] AllNodes()
+    {
+        return FindObjectsOfType<Nodes>();
+    }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     // void Start()
