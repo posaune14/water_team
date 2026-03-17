@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class NPC_Controller : MonoBehaviour
 {
-    /*public int maxHealth = 100;
+    public int maxHealth = 100;
     public int curHealth;
     public int panicMultiplier = 1;
     
@@ -28,16 +28,60 @@ public class NPC_Controller : MonoBehaviour
 
     private void Start()
     {
-        
+        currentState = StateMachine.Patrol;
     }
 
     private void Update()
     {
-        
+        switch (currentState)
+        {
+            case StateMachine.Patrol:
+                Patrol();
+                break;
+            case StateMachine.Engage:
+                Engage();
+                break;
+            case StateMachine.Evade:
+                Evade();
+                break;
+        }
+
+        bool playerSeen = Vector2.Distance(transform.position, player.transform.position) < 5.0f;
+
+        if (playerSeen == false && currentState != StateMachine.Patrol && curHealth > (maxHealth*20)/100))
+        {
+            currentState = StateMachine.Patrol;
+            path.Clear();
+        }
+        else if (playerSeen == true && currentState != StateMachine.Engage && curHealth > (maxHealth*20)/100))
+        {
+            currentState = StateMachine.Engage;
+            path.Clear();
+        }
+        else if (currentState != StateMachine.Evade && curHealth <= (maxHealth*20)/100))
+        {
+            currentState = StateMachine.Evade;
+            path.Clear();
+        }
     }
 
     void Patrol()
     {
         
-    }*/
+    }
+
+    void Engage()
+    {
+        
+    }
+
+    void Evade()
+    {
+        
+    }
+
+    void createPath()
+    {
+        
+    }
 }
