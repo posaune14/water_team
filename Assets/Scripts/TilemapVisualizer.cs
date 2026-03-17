@@ -10,6 +10,7 @@ public class TilemapVisualizer : MonoBehaviour
     private Tilemap floorTilemap, wallTileMap;
     [SerializeField]
     private TileBase floorTile, wallTop;
+    public Nodes node_prefab;
     
 
     public void PaintFloorTiles(IEnumerable<Vector2Int> floorPositions)
@@ -28,6 +29,7 @@ public class TilemapVisualizer : MonoBehaviour
     private void PaintSingleTile(Tilemap tilemap, TileBase tile, Vector2Int position)
     {
         var tilePosition = tilemap.WorldToCell((Vector3Int)position);
+        Nodes node = Instantiate(node_prefab,tilePosition,Quaternion.identity);
         tilemap.SetTile(tilePosition, tile);
     }
 
