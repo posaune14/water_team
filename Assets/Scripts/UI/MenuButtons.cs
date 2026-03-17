@@ -14,7 +14,7 @@ public class MenuButtons : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         
         var button = uiDocument.rootVisualElement.Q<Button>("start"); // grab start button
-        button.RegisterCallback<ClickEvent>(e => { SceneManager.LoadScene("LevelOne"); }); // load level 1 on click
+        button.RegisterCallback<ClickEvent>(e => { SceneManager.LoadScene("main_scene"); }); // load level 1 on click
         button.RegisterCallback<PointerEnterEvent>(e=>{audioSource.Play();}); // play sound on mouse hover
     }
 

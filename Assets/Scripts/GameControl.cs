@@ -4,17 +4,13 @@ using UnityEngine;
     
 public class GameControl: SimpleRandomWalkMapGenerator
 {
-    private int enemies = 0;
+    private int enemies = 1;
 
-    public void Start()
+    public void Update()
     {
         if (enemies == 0)
         {
             GenerateDungeon();
         }
-    }
-    public void Update()
-    {
-        
     }
 }
