@@ -23,13 +23,13 @@ public class TilemapVisualizer : MonoBehaviour
         foreach (var position in positions)
         {
             PaintSingleTile(tilemap, tile, position);
+            Nodes node = Instantiate(node_prefab, new Vector3(position.x, position.y, 0), Quaternion.identity);
         }
     }
 
     private void PaintSingleTile(Tilemap tilemap, TileBase tile, Vector2Int position)
     {
         var tilePosition = tilemap.WorldToCell((Vector3Int)position);
-        Nodes node = Instantiate(node_prefab,tilePosition,Quaternion.identity);
         tilemap.SetTile(tilePosition, tile);
     }
 
