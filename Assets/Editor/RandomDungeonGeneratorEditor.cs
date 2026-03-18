@@ -13,6 +13,7 @@ public class RandomDungeonGeneratorEditor : Editor
         generator = (AbstractDungeonGenerator)target;
     }
 
+    /*
     public override void OnInspectorGUI()
     {
         base.OnInspectorGUI();
@@ -20,5 +21,5 @@ public class RandomDungeonGeneratorEditor : Editor
         {
             generator.GenerateDungeon();
         }
-    }
+    }*/
 }
