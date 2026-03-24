@@ -12,7 +12,7 @@ public class NPC_Controller : MonoBehaviour
     public int panicMultiplier = 1;
     
     public Nodes currentNode;
-    public List<Nodes> path;
+    public List<Nodes> path = ProceduralGenerationAlgorithms.SimpleRandomWalk(new Vector2Int(2, 5), 22);
 
     public GameObject player;
     public float speed = 3;
@@ -73,7 +73,7 @@ public class NPC_Controller : MonoBehaviour
         {
             path = AStarManager.instance.GenerationPath(currentNode, AStarManager.instance.AllNodes()[Random.Range(0, AStarManager.instance.AllNodes().Length)]);
         }
-    }
+    }   
 
     void Engage()
     {

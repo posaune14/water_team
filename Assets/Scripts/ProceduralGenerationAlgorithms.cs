@@ -19,7 +19,23 @@ public static class ProceduralGenerationAlgorithms
         }
 
         return path;
-    }   
+    }
+    public static List<Nodes> SimpleRandomWalkNPC(Vector2Int startPosition, int walkLength)
+    {
+        List<Nodes> path = new List<Nodes>();
+
+        path.Add(startPosition);
+        var previousPosition = startPosition;
+        
+        for(int i = 0; i < walkLength; i++)
+        {
+            var newPosition = previousPosition + Direction2D.GetRandomCardinalDirection();
+            path.Add(newPosition);
+            previousPosition = newPosition;
+        }
+
+        return path;
+    }  
 }
 
 //to create a random vector2 to add to the path 

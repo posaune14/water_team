@@ -6,6 +6,7 @@ public class Nodes : MonoBehaviour
 {
     public Nodes cameFrom; //position where the npc sprite "came from" 
     public List<Nodes> connections; // possible options for movement - surrounding connecting nodes that are directly reachable
+    
 
     public float gScore; //distance from starting node to current node 
     public float hScore; //estimated distance from current node to goal destination
