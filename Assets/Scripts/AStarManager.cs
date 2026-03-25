@@ -24,7 +24,7 @@ public class AStarManager : MonoBehaviour
 
         start.gScore = 0;
         start.hScore = Vector2.Distance(start.transform.position, end.transform.position);
-
+        
         while(openSet.Count>0)
         {
             int lowestF = default;

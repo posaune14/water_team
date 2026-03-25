@@ -12,7 +12,7 @@ public class NPC_Controller : MonoBehaviour
     public int panicMultiplier = 1;
     
     public Nodes currentNode;
-    public List<Nodes> path = ProceduralGenerationAlgorithms.SimpleRandomWalk(new Vector2Int(2, 5), 22);
+    public List<Nodes> path = new List<Nodes>();
 
     public GameObject player;
     public float speed = 3;
@@ -36,7 +36,9 @@ public class NPC_Controller : MonoBehaviour
         switch (currentState)
         {
             case StateMachine.Patrol:
+                Debug.Log(path);
                 Patrol();
+
                 break;
             case StateMachine.Engage:
                 Engage();
@@ -63,15 +65,16 @@ public class NPC_Controller : MonoBehaviour
             currentState = StateMachine.Evade;
             path.Clear();
         }
-
+        //function below
         CreatePath();
     }
 
     void Patrol()
-    {
+    {   
         if(path.Count==0)
         {
             path = AStarManager.instance.GenerationPath(currentNode, AStarManager.instance.AllNodes()[Random.Range(0, AStarManager.instance.AllNodes().Length)]);
+            //Debug.Log(path);
         }
     }   
 
@@ -79,8 +82,8 @@ public class NPC_Controller : MonoBehaviour
     {
         if(path.Count ==0)
         {
-
             path = AStarManager.instance.GenerationPath(currentNode, AStarManager.instance.FindNearestNode(player.transform.position));
+            //Debug.Log(path);
         }
     }
 
@@ -89,9 +92,11 @@ public class NPC_Controller : MonoBehaviour
         if(path.Count==0)
         {
             path = AStarManager.instance.GenerationPath(currentNode, AStarManager.instance.FindFurthestNode(player.transform.position));
+            //Debug.Log(path);
         }
     }
 
+    //create path from npc to player
     void CreatePath()
     {
         if(path.Count>0)

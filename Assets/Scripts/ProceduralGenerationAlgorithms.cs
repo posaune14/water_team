@@ -20,6 +20,8 @@ public static class ProceduralGenerationAlgorithms
 
         return path;
     }
+    
+    /*
     public static List<Nodes> SimpleRandomWalkNPC(Vector2Int startPosition, int walkLength)
     {
         List<Nodes> path = new List<Nodes>();
@@ -35,7 +37,8 @@ public static class ProceduralGenerationAlgorithms
         }
 
         return path;
-    }  
+    } 
+    */
 }
 
 //to create a random vector2 to add to the path 

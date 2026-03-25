@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Controller
   maxHealth: 100
-  curHealth: 0
+  curHealth: 100
   panicMultiplier: 1
   currentNode: {fileID: 1178170954}
   path: []
