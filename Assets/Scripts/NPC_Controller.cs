@@ -75,6 +75,7 @@ public class NPC_Controller : MonoBehaviour
         {
             path = AStarManager.instance.GenerationPath(currentNode, AStarManager.instance.AllNodes()[Random.Range(0, AStarManager.instance.AllNodes().Length)]);
             //Debug.Log(path);
+            //Error: generation path always returns null 
         }
     }   
 
