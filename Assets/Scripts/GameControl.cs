@@ -11,6 +11,8 @@ public class GameControl: SimpleRandomWalkMapGenerator
         if (enemies == 0)
         {
             GenerateDungeon();
+            AstarPath.active.Scan();
+            
         }
     }
 }
